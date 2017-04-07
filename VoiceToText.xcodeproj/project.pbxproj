@@ -14,6 +14,8 @@
 		99B4D2E71E39092800E3DA65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B4D2E51E39092800E3DA65 /* LaunchScreen.storyboard */; };
 		99B4D2F21E39092800E3DA65 /* VoiceToTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B4D2F11E39092800E3DA65 /* VoiceToTextTests.swift */; };
 		99B4D2FD1E39092800E3DA65 /* VoiceToTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B4D2FC1E39092800E3DA65 /* VoiceToTextUITests.swift */; };
+		99B4D30B1E390DBC00E3DA65 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B4D30A1E390DBC00E3DA65 /* CircleButton.swift */; };
+		99B4D30D1E39189900E3DA65 /* test.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 99B4D30C1E39189900E3DA65 /* test.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		99B4D2F81E39092800E3DA65 /* VoiceToTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceToTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B4D2FC1E39092800E3DA65 /* VoiceToTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceToTextUITests.swift; sourceTree = "<group>"; };
 		99B4D2FE1E39092800E3DA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99B4D30A1E390DBC00E3DA65 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		99B4D30C1E39189900E3DA65 /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		99B4D2DB1E39092700E3DA65 /* VoiceToText */ = {
 			isa = PBXGroup;
 			children = (
+				99B4D30C1E39189900E3DA65 /* test.m4a */,
 				99B4D2DC1E39092700E3DA65 /* AppDelegate.swift */,
 				99B4D2DE1E39092700E3DA65 /* ViewController.swift */,
+				99B4D30A1E390DBC00E3DA65 /* CircleButton.swift */,
 				99B4D2E01E39092800E3DA65 /* Main.storyboard */,
 				99B4D2E31E39092800E3DA65 /* Assets.xcassets */,
 				99B4D2E51E39092800E3DA65 /* LaunchScreen.storyboard */,
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99B4D30D1E39189900E3DA65 /* test.m4a in Resources */,
 				99B4D2E71E39092800E3DA65 /* LaunchScreen.storyboard in Resources */,
 				99B4D2E41E39092800E3DA65 /* Assets.xcassets in Resources */,
 				99B4D2E21E39092800E3DA65 /* Main.storyboard in Resources */,
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99B4D30B1E390DBC00E3DA65 /* CircleButton.swift in Sources */,
 				99B4D2DF1E39092700E3DA65 /* ViewController.swift in Sources */,
 				99B4D2DD1E39092700E3DA65 /* AppDelegate.swift in Sources */,
 			);
@@ -410,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VoiceToText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = local.VoiceToText;
@@ -422,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VoiceToText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = local.VoiceToText;
@@ -503,6 +513,7 @@
 				99B4D3031E39092800E3DA65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99B4D3041E39092800E3DA65 /* Build configuration list for PBXNativeTarget "VoiceToTextTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +522,7 @@
 				99B4D3061E39092800E3DA65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99B4D3071E39092800E3DA65 /* Build configuration list for PBXNativeTarget "VoiceToTextUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +531,7 @@
 				99B4D3091E39092800E3DA65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
